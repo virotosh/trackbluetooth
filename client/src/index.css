@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-container {
+  height: 600px;
+  width: 100%;
+}
+
+.mapStyle{
+  width: 100%; height: 100%; position:fixed;left: 0px;
+  top: 0px;
+}
+
+.leaflet-div-icon
+{
+  background:red;
+  border:5px solid rgba(255,255,255,0.5);
+  color:blue;
+  font-weight:bold;
+  text-align:center;
+  border-radius:50%;
+  line-height:30px;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 0px;
+}
+
+.header {
+  padding: 10px;
+  background: #edf2f4;
+  border-bottom: 1px solid #999;
+}
+.header a {
+  color: #0072ff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.header a:hover {
+  color: #8a0f53;
+}
+.header small {
+  color: #666;
+}
+.header .active {
+  color: #2c7613;
+}
